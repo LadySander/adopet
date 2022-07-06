@@ -1,0 +1,121 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+  background-color: #a7f8df;
+}
+
+#titulo {
+  color: #366958;
+  text-align: center;
+  margin: auto;
+  max-width: 70%;
+}
+
+.adopet {
+  margin: auto;
+  display: block;
+  width: 60%;
+  max-width: 60%;
+}
+
+#subtitulo {
+  color: #546e5b;
+}
+
+fieldset {
+  border: 0px;
+}
+
+body {
+  font-size: 18px;
+  color: #546e5b;
+  margin: 2% 28%;
+  padding: 30px;
+  background-color: #e4ffec;
+}
+
+input,
+select,
+textarea,
+button {
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+select {
+  color: #366958;
+  background-color: #a7f8df;
+}
+
+.campo {
+  margin-bottom: 30px;
+}
+
+label {
+  margin-bottom: 2px;
+  color: #366958;
+  display: block;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select {
+  width: 200px;
+  padding: 10px;
+  border: 1px;
+  max-width: 50%;
+  box-shadow: 1px 1px 1px rgb(0, 0, 0, 0.2);
+}
+
+textarea {
+  padding: 10px;
+  border: 1px;
+  resize: none;
+  width: 95%;
+  box-shadow: 1px 1px 1px rgb(0, 0, 0, 0.2);
+}
+
+.grupo {
+  padding: 0px;
+}
+
+/* Put checkbox text content side-by-side with its corresponding box */
+input[type="checkbox"] {
+  float: left;
+  width: 20px;
+}
+
+/* Giving the radio options some breathing space */
+input[type="radio"] {
+  width: 20px;
+}
+
+.botao {
+  font-size: 18px;
+  color: #366958;
+  background-color: #a7f8df;
+  border: 0px;
+  padding: 10px 20px;
+  margin: auto;
+  display: block;
+}
+
+.botao,
+select {
+  cursor: pointer;
+}
+
+.botao:hover,
+.moradia:hover {
+  background-color: #91e3c2;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
+}
+
+/* To change the height of the br to something smaller */
+br {
+  display: block;
+  content: "";
+  margin-top: 10px;
+}

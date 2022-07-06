@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Cadastro - AdoPet</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div>
+        <h1 id="titulo">Cadastro</h1>
+        <br>
+        <img src="/AdoPet.svg" alt="AdoPet" class="adopet">
+        <br>
+        <br>
+        <p id="subtitulo">Complete seu Cadastro adicionando suas informações abaixo:</p>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <br>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <br>
+                <input type="text" name="sobremone" id="sobrenome" required>
+            </div>
+            <div class="campo">
+                <label for="email"><strong>E-mail</strong></label>
+                <br>
+                <input type="email" name="email" id="email" required>
+            </div>
+        </fieldset>
+        <br>
+        <br>
+
+        <div class="campo">
+            <label><strong>Qual Espécie você está pensando em adotar?</strong></label>
+            <br>
+            <label>
+                <input type="radio" name="especie" value="cao" checked>Cão
+            </label>
+            <label>
+                <input type="radio" name="especie" value="gato">Gato
+            </label>
+            <label>
+                <input type="radio" name="especie" value="ave">Ave
+            </label>
+            <label>
+                <input type="radio" name="especie" value="roedor">Roedor
+            </label>
+            <label>
+                <input type="radio" name="especie" value="reptil">Réptil
+            </label>
+        </div>
+        <br>
+        <br>
+
+        <div class="campo">
+            <label><strong>Mora em Casa ou Apartamento?</strong></label>
+            <br>
+            <select class="moradia">
+                <option selected disabled value="">Selecione</option>
+                <option>Casa</option>
+                <option>Apartamento</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label><strong>Quais Espécies convivem com você em sua Residência atualmente?</strong></label>
+                <br>
+                <div>
+                    <input type="checkbox" id="residencia1" name="residencia1" value="1">
+                    <label for="residencia">Cão</label>
+                </div>
+                <input type="checkbox" id="residencia2" name="residencia2" value="2">
+                <label for="residencia">Gato</label>
+                <input type="checkbox" id="residencia3" name="residencia3" value="3">
+                <label for="residencia">Ave</label>
+                <input type="checkbox" id="residencia4" name="residencia4" value="4">
+                <label for="residencia">Roedor</label>
+                <input type="checkbox" id="residencia5" name="residencia5" value="5">
+                <label for="residencia">Réptil</label>
+            </div>
+        </fieldset>
+        <br>
+
+        <div class="campo">
+            <label><strong>Quantos animais convivem com você em sua Residência atualmente?</strong></label>
+            <br>
+            <label>
+                <input type="radio" name="quantidade" value="1" checked>1
+            </label>
+            <label>
+                <input type="radio" name="quantidade" value="2">2
+            </label>
+            <label>
+                <input type="radio" name="quantidade" value="3">3
+            </label>
+            <label>
+                <input type="radio" name="quantidade" value="4">4
+            </label>
+            <label>
+                <input type="radio" name="quantidade" value="5">5 ou mais
+            </label>
+        </div>
+    </form>
+    <br>
+    <br>
+
+    <div class="campo">
+        <label><strong>Conte-nos um pouco sobre você:</strong></label>
+        <br>
+        <textarea name="historico" id="historico"></textarea>
+    </div>
+
+    <button class="botao" type="submit">Enviar</button>
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>
